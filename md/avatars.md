@@ -61,15 +61,15 @@
           <div class="indicator online"></div>
         </li>
         <li>
+          <img src="./../assets/avatars/face7.jpg" alt="avatar 7" />
+          <div class="indicator online"></div>
+        </li>
+        <li>
           <img src="./../assets/avatars/face5.jpg" alt="avatar 5" />
           <div class="indicator online"></div>
         </li>
         <li>
           <img src="./../assets/avatars/face6.jpg" alt="avatar 6" />
-          <div class="indicator online"></div>
-        </li>
-        <li>
-          <img src="./../assets/avatars/face7.jpg" alt="avatar 7" />
           <div class="indicator"></div>
         </li>
         <li>
