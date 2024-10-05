@@ -2,7 +2,7 @@
 
 ## Me 😀
 
-<img src="./assets/md/me.jpg" width="50%" height="50%">
+<img src="./images/me.jpg" width="50%" height="50%">
 
 멋쟁이 사자처럼 프론트엔드 스쿨 12기 **공세현**입니다.
 
