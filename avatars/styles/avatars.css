@@ -1,0 +1,33 @@
+ul {
+  width: 396px;
+  height: 195px;
+}
+
+li {
+  position: relative;
+  list-style: none;
+  float: left;
+}
+
+img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.indicator {
+  position: absolute;
+  left: 56.22px;
+  top: 56.22px;
+  width: 17.78px;
+  height: 17.78px;
+  background-color: #dbdbdb;
+  border: 1px solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.indicator.online {
+  background-color: #4cfe88;
+}
