@@ -1,0 +1,130 @@
+@import "./theme.css";
+@import "./base.css";
+
+.card-container {
+  container: card-contaier / inline-size;
+}
+
+.card {
+  height: var(--size);
+  block-size: var(--size);
+
+  color: var(--white);
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: var(--small-spacing);
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  cursor: pointer;
+
+  .title {
+    font-size: var(--large-text);
+    font-weight: bold;
+
+    margin-top: var(--large-spacing);
+    margin-block-start: var(--large-spacing);
+  }
+
+  .subtitle {
+    font-size: var(--base-text);
+    line-height: var(--line-normal);
+
+    margin-bottom: var(--x-small-spacing);
+    margin-block-end: var(--x-small-spacing);
+
+    display: block;
+    text-align: center;
+  }
+
+  .release-date {
+    font-size: var(--small-text);
+    color: var(--gray);
+  }
+
+  a {
+    display: inline-block;
+
+    font-size: var(--xx-small-text);
+
+    padding-top: var(--x-small-spacing);
+    padding-bottom: var(--x-small-spacing);
+    padding-block: var(--x-small-spacing);
+    padding-left: var(--small-spacing);
+    padding-right: var(--small-spacing);
+    padding-inline: var(--small-spacing);
+
+    border: 1px solid var(--blue-400);
+    border-radius: 61.25rem;
+
+    &:hover {
+      background-color: var(--blue-300);
+    }
+  }
+
+  .button-info {
+    margin-right: var(--base-spacing);
+    margin-inline-end: var(--base-spacing);
+
+    background-color: var(--blue-400);
+  }
+
+  .button-store {
+    color: var(--blue-400);
+
+    &:hover {
+      color: var(--white);
+    }
+  }
+}
+
+.card-container:nth-child(even) .card {
+  .title,
+  .subtitle,
+  .button-store {
+    color: var(--black);
+  }
+
+  a {
+    border: 1px solid var(--black);
+
+    &:hover {
+      background-color: var(--black);
+      color: var(--white);
+    }
+  }
+
+  .button-info {
+    background-color: var(--black);
+  }
+}
+
+@container (inline-size > 1023px) {
+  .card {
+    .title {
+      font-size: var(--extra-large-text);
+
+      margin-top: var(--extra-large-spacing);
+      margin-block-start: var(--extra-large-spacing);
+    }
+
+    .subtitle {
+      font-size: var(--medium-text);
+      display: flex;
+
+      gap: 0.25rem;
+
+      p {
+        display: inline;
+      }
+    }
+
+    a {
+      font-size: var(--x-small-text);
+    }
+  }
+}
