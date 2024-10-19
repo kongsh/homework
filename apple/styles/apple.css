@@ -6,7 +6,7 @@
 .cards {
   display: grid;
 
-  gap: 12px;
+  gap: var(--small-spacing);
 
   @media (min-resolution: 192dpi) {
     .card-container:nth-child(1) .card {

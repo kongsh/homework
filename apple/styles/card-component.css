@@ -20,8 +20,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  cursor: pointer;
-
   .title {
     font-size: var(--large-text);
     font-weight: bold;
@@ -117,6 +115,9 @@
       display: flex;
 
       gap: 0.25rem;
+
+      margin-bottom: 0;
+      margin-block-end: 0;
 
       p {
         display: inline;
