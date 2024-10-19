@@ -1,5 +1,7 @@
 # <span style="color:orange"> Apple </span>
 
+![](./images/apple-video.gif)
+
 ## Intro
 
 과제 링크 : https://kongsh.github.io/homework/apple/apple.html
